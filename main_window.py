@@ -1,5 +1,7 @@
 import sys
 from PySide6 import QtWidgets, QtGui, QtCore
+from PySide6.QtCore import QSize
+
 
 class TableApp(QtWidgets.QWidget):
     def __init__(self):
@@ -7,7 +9,7 @@ class TableApp(QtWidgets.QWidget):
 
 
         self.setWindowTitle("Таблица статусов")
-        self.setGeometry(100, 100, 1200, 800)
+        self.setGeometry(100, 100, 1200, 600)
         self.setStyleSheet("background-color: gray;")
 
 
@@ -15,6 +17,7 @@ class TableApp(QtWidgets.QWidget):
         self.table_widget.setRowCount(10)
         self.table_widget.setColumnCount(6)
         self.table_widget.setHorizontalHeaderLabels(["Статус", "Дата", "Приоритет", "Автор", "Описание", "Удалить"])
+        self.table_widget.setMinimumSize(QSize(645, 310)) # type: ignore
 
 
         self.table_widget.setStyleSheet("""
