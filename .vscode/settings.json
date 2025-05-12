@@ -1,37 +1,13 @@
 {
-    "cSpell.words": [
-        "Автор",
-        "Анализ",
-        "данных",
-        "Дата",
-        "Дизайн",
-        "Документация",
-        "Завершено",
-        "заголовков",
-        "заявку",
-        "Исследование",
-        "макета",
-        "Низкий",
-        "Ожидание",
-        "ожидании",
-        "Описание",
-        "Отчет",
-        "Подать",
-        "Презентация",
-        "Приоритет",
-        "Проверка",
-        "проекте",
-        "работе",
-        "Размер",
-        "Создание",
-        "Средний",
-        "Статус",
-        "статусов",
-        "Таблица",
-        "таблицы",
-        "Тестирование",
-        "Удалить",
-        "шрифта",
-        "элементов"
-    ]
+  "python.defaultInterpreterPath": "/home/ekimovgeo/.cache/pypoetry/virtualenvs/hexlet-study-practice-cqWCThoA-py3.12",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportGeneralTypeIssues": "none",
+    "reportOptionalMemberAccess": "none"
+  },
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.useLibraryCodeForTypes": true
 }
