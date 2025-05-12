@@ -12,7 +12,7 @@
 
 # Task Manager - учебный проект для Hexlet
 
-![Python](https://img.shields.io/badge/python-3.12-blue)
+![Python](https://img.shields.io/badge/python-3.11-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)
 ![PySide6](https://img.shields.io/badge/PySide6-6.6-green)
 
@@ -40,7 +40,7 @@
 
 ## 🛠 Технологический стек
 
-- **Язык**: Python 3.12
+- **Язык**: Python 3.11
 - **GUI**: PySide6 (Qt для Python)
 - **База данных**: PostgreSQL 15+
 - **ORM**: SQLAlchemy 2.0
