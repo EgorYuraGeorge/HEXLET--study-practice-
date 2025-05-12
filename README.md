@@ -53,35 +53,22 @@
    git clone https://github.com/your-account/HEXLET--study-practice-.git
    cd HEXLET--study-practice-
 
-2. **Настройка окружения**:
-*bash
+2. **Установите зависимости**:
 
-poetry install
+python -m venv venv
+venv\Scripts\activate
+pip install -e .
 
 3. **Настройка БД**:
 
     Установите PostgreSQL
 
     Создайте БД и пользователя:
-    sql
 
 CREATE DATABASE task_manager;
 CREATE USER hexlet WITH PASSWORD '12345';
 GRANT ALL PRIVILEGES ON DATABASE task_manager TO hexlet;
 
 4. **Запуск приложения**:
-bash
 
-poetry run python -m app.__main__
-
-📊 Структура проекта
-
-HEXLET--study-practice-/
-├── app/
-│   ├── controllers/    # Бизнес-логика
-│   ├── models/         # Модели данных и работа с БД
-│   ├── views/          # Графический интерфейс
-│   └── __main__.py     # Точка входа
-├── tests/              # Unit-тесты
-├── pyproject.toml      # Конфигурация проекта
-└── README.md           # Документация
+python -m app
