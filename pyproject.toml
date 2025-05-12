@@ -6,7 +6,7 @@ authors = [
     {name = "Ekimov George", email = "ekimovgosha@mail.ru"}
 ]
 readme = "README.md"
-requires-python = ">=3.12,<3.14"
+requires-python = ">=3.11,<3.13"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
@@ -17,10 +17,11 @@ name = "hexlet-study-practice"
 version = "0.1.0"
 description = "task-manager"
 authors = ["Ekimov George <ekimovgosha@mail.ru>"]
+packages = [{ include = "app" }]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.12,<3.14"
+python = ">=3.11,<3.13"
 pyside6 = "^6.6.0"
 psycopg2 = "^2.9.9"
 sqlalchemy = "^2.0.25"
