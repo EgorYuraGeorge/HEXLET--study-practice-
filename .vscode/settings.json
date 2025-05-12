@@ -1,13 +1,9 @@
 {
-  "python.defaultInterpreterPath": "/home/ekimovgeo/.cache/pypoetry/virtualenvs/hexlet-study-practice-cqWCThoA-py3.12",
+  "python.defaultInterpreterPath": "/home/ekimovgeo/.cache/pypoetry/virtualenvs/hexlet-study-practice-cqWCThoA/bin/python",
+  "python.analysis.extraPaths": ["./app"],
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingImports": "none",
-    "reportGeneralTypeIssues": "none",
-    "reportOptionalMemberAccess": "none"
-  },
-  "python.linting.enabled": true,
-  "python.formatting.provider": "black",
-  "python.analysis.autoImportCompletions": true,
-  "python.analysis.useLibraryCodeForTypes": true
+    "reportGeneralTypeIssues": "none"
+  }
 }
